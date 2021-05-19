@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Common */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -15,6 +15,7 @@ body {
     
 }
 
+/* HEADER */
 .logo {
     display: flex;
     padding-top: 20px;
@@ -58,10 +59,11 @@ header::after {
     padding: 8px;
 }
 
+/* MAIN */
 .each-question {
     width: 70%;
     margin: auto;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .each-question h2 {
@@ -73,6 +75,11 @@ header::after {
 .each-question p {
     font-size: 15px;
     line-height: 25px;
+}
+
+.each-question p a {
+    color: blue;
+    text-decoration: none;
 }
 
 
